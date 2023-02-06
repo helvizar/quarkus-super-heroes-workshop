@@ -29,7 +29,12 @@ public class FightService {
         return Fight.findById(id);
     }
 
-    public Fight findRandomFighter(Fighters fighters) {
+    public Fighters findRandomFighters() {
+        // nanti diisi
+        return null;
+    }
+
+    public Fight persistFight(Fighters fighters) {
         // logic untuk menentukan yang menang
         Fight fight;
 
